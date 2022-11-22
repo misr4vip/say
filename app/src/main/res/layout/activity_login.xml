@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+
+    tools:context=".LoginActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/welcomeback"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="30dp"
+    android:textSize="26sp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_welcomeback"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="@color/black"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/edittextconfig"
+    android:hint="@string/email"
+    android:id="@+id/et_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edittextconfig"
+        android:hint="@string/pwd"
+        android:id="@+id/et_pwd"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgetpwd"
+        android:textColor="@color/red"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="left"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonwithbackground"
+        android:layout_marginBottom="10dp"
+        android:text="@string/login"
+        android:id="@+id/btn_login"/>
+</LinearLayout>

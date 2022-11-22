@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:padding="16dp"
+
+    android:gravity="center_horizontal"
+    tools:context=".SecondCategoryActivity">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:hint="منطقة الكتابة "
+        android:layout_marginBottom="20dp"
+android:background="@color/Main_color"
+        android:textColorHint="@color/black"
+        android:id="@+id/et_Password"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/Main_color"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/ic_Test_foreground"/>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">say</string>
+    <string name="discr"> لغة تحكي بالأيدي .. وتسمع بالعيون</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="register">حساب جديد</string>
+    <string name="welcomeback">مرحباً بعودتك</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="pwd">كلمة المرور</string>
+    <string name="repwd">تأكيد كلمة المرور</string>
+    <string name="forgetpwd">هل نسيت كلمة المرور؟</string>
+    <string name="happytoenjoyus">يسرنا إنضمامك لعائلتنا</string>
+    <string name="firstname">الاسم الأول</string>
+    <string name="lastname">الاسم الأخير</string>
+    <string name="signup">تسجيل</string>
+    <string name="category1">فئة الصم والبكم</string>
+    <string name="category2">فئة الأشخاص</string>
+    <string name="category3">قاموس لغة الإشارة</string>
+    <string name="back">السابق</string>
+    <string name="next">التالي</string>
+</resources>

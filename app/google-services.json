@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825680983617",
+    "firebase_url": "https://saydb-5b247.firebaseio.com",
+    "project_id": "saydb-5b247",
+    "storage_bucket": "saydb-5b247.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825680983617:android:fe8e500274f2d76206b8c0",
+        "android_client_info": {
+          "package_name": "net.say.say"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825680983617-741qp3rljveeht2mr8jekdfflbb27n1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.say.say",
+            "certificate_hash": "9397663928c0b4875e8f0f7479a607258bec8a91"
+          }
+        },
+        {
+          "client_id": "825680983617-67ord0kcdn59t1o283sbl7o5vjvhnb9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Oa00Cawf4Vbv9fd3d5WeQmsU8hAcf-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825680983617-67ord0kcdn59t1o283sbl7o5vjvhnb9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

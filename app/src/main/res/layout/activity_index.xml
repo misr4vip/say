@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".IndexActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".33"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:onClick="ShowFirstCategory"
+    android:background="@color/Main_color">
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@mipmap/ic_category1"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category1"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".33"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/Main_color">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_category2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category2"
+            android:textSize="26sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".33"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/ll_dic"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:onClick="ShowDictionary"
+        android:background="@color/Main_color">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/iv_dic"
+            android:onClick="ShowDictionary"
+            android:src="@mipmap/ic_category3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category3"
+            android:textSize="26sp"
+            android:id="@+id/tv_dic"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:onClick="ShowDictionary"
+            />
+    </LinearLayout>
+
+</LinearLayout>

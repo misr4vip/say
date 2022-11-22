@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Main_color"
+    android:weightSum="1"
+    tools:context=".ImagesActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:id="@+id/iv_Image"
+
+    android:layout_weight=".8"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:weightSum="1"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_radiues"
+            android:layout_height="wrap_content"
+            android:text="@string/next"/>
+        <Button
+            android:id="@+id/btn_prev"
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_radiues"
+            android:layout_height="wrap_content"
+            android:text="@string/back"/>
+    </LinearLayout>
+
+</LinearLayout>
